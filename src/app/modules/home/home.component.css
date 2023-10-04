@@ -1,0 +1,11 @@
+/* :root {
+  --first-color: rgb(18, 72, 107);
+  --firt-alpha-color: rgba(18, 72, 107, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+} */
+
+/*Bootdtrap Styles*/
+.bg-dark {
+  background-color: var(--first-color) !important;
+}
