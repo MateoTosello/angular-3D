@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+/*ROOT*/
+:root {
+  --first-color: rgb(18, 72, 107);
+  --firt-alpha-color: rgba(18, 72, 107, 0.75);
+  --second-color: rgb(65, 145, 151);
+  --second-alpha-color: rgba(65, 145, 151, 0.75);
+  --third-color: rgb(120, 214, 198);
+  --third-alpha-color: rgba(120, 214, 198, 0.75);
+  --fourth-color: rgb(245, 252, 205);
+  --fourth-alpha-color: rgba(245, 252, 205, 0.75);
+}
+
+/*Bootdtrap Styles*/
+
+/*My Styles*/
+.bg-gradient-black-grey {
+  background: rgb(18, 72, 107);
+  background: linear-gradient(
+    180deg,
+    rgb(65, 145, 151) 16%,
+    rgb(120, 214, 198) 52%,
+    rgba(163, 163, 163, 1) 100%
+  );
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
